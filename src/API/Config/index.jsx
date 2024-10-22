@@ -1,0 +1,1 @@
+export const DOMAIN = 'https://mtaman-251-betlife.odoo.com';

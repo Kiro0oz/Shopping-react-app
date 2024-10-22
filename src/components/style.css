@@ -1,0 +1,36 @@
+.product_card {
+    transition: .3s;
+}
+
+.product_card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.discount {
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: fit-content;
+}
+
+.checkout_btns {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.close_btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
